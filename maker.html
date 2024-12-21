@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASulaymon language maker!</title>
+    <link rel="stylesheet" href="/css/maker.css">
+</head>
+<body>
+    <i onclick="dark()" class="md fa-solid fa-circle-half-stroke"></i>
+    <div class="barrier">
+        <div class="translator">
+            <span class="exit">✖</span>
+            <header>
+                <h1>ASulaymon tili</h1>
+            </header>
+            <div class="translator_inputs">
+                <textarea class="tarea" placeholder="istalgan tilda yozing"></textarea>
+                <div class="result">
+                    <h3>Tarjima</h3>
+                    <button class="copy"><i class="fa-solid fa-copy"></i></button>
+                </div>
+            </div>
+        </div>  
+    </div>
+
+    <h1 class="mkr">Language maker</h1>
+    <div class="container">
+        <div class="name_cont"> 
+            <input class="name" alert="Tilingizning nomi kamida 5ta harfdan iborat bo'lishi kerak" type="text" placeholder="Tilingizning nomi">
+        </div>
+        <div class="inputs inputs1">
+            <input type="text" maxlength="1"  class="input input1">
+            <input type="text" maxlength="1" disabled class="input input2">
+        </div>
+    </div>
+    <div class="btns">
+        <button class="add">Qo'shish +</button>
+        <button class="save">saqlash</button>
+    </div>
+</body>
+<script src="https://kit.fontawesome.com/4e53563d8d.js" crossorigin="anonymous"></script>
+<script src="/js/maker.js"></script>
+</html>
